@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{BB6F05CB-4BDC-4E20-9699-C0F28C5D240C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Task__1.5 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Task__2.1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Task__1.1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Task__3.1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PaymentService.cs">
+    <Files>
+      <File FileName="Library/PaymentService.cs" Line="24" Column="10" />
+      <File FileName="Task_3.2/Program.cs" />
+      <File FileName="Library/CurrencyConverter.cs" />
+      <File FileName="Library/PaymentServiceException.cs" />
+      <File FileName="Library/LimitExceededException.cs" />
+      <File FileName="Library/InsufficientFundsException.cs" />
+      <File FileName="Task_4.1/Program.cs" />
+      <File FileName="Task_4.2/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Homework2" expanded="True">
+            <Node name="Library" expanded="True">
+              <Node name="PaymentService.cs" selected="True" />
+            </Node>
+            <Node name="Task_3.2" expanded="True" />
+            <Node name="Task_4.1" expanded="True" />
+            <Node name="Task_4.2" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Homework2" expanded="True">
+            <Node name="Library" expanded="True" />
+            <Node name="Task_1.1" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Task__4.1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BettingPlatformEmulatorTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Task__1.3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Task__1.4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Task__3.2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Task__1.2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Task__4.2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

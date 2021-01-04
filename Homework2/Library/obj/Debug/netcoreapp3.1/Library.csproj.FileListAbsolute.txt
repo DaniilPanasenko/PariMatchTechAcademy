@@ -1,0 +1,9 @@
+/Users/admin/Projects/PariMatchTechAcademy/Homework2/Library/bin/Debug/netcoreapp3.1/Library.deps.json
+/Users/admin/Projects/PariMatchTechAcademy/Homework2/Library/bin/Debug/netcoreapp3.1/Library.dll
+/Users/admin/Projects/PariMatchTechAcademy/Homework2/Library/bin/Debug/netcoreapp3.1/Library.pdb
+/Users/admin/Projects/PariMatchTechAcademy/Homework2/Library/obj/Debug/netcoreapp3.1/Library.csprojAssemblyReference.cache
+/Users/admin/Projects/PariMatchTechAcademy/Homework2/Library/obj/Debug/netcoreapp3.1/Library.AssemblyInfoInputs.cache
+/Users/admin/Projects/PariMatchTechAcademy/Homework2/Library/obj/Debug/netcoreapp3.1/Library.AssemblyInfo.cs
+/Users/admin/Projects/PariMatchTechAcademy/Homework2/Library/obj/Debug/netcoreapp3.1/Library.csproj.CoreCompileInputs.cache
+/Users/admin/Projects/PariMatchTechAcademy/Homework2/Library/obj/Debug/netcoreapp3.1/Library.dll
+/Users/admin/Projects/PariMatchTechAcademy/Homework2/Library/obj/Debug/netcoreapp3.1/Library.pdb

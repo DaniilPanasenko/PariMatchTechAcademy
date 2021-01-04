@@ -1,0 +1,12 @@
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/bin/Debug/netcoreapp3.1/Task1_1.deps.json
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/bin/Debug/netcoreapp3.1/Task1_1.runtimeconfig.json
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/bin/Debug/netcoreapp3.1/Task1_1.runtimeconfig.dev.json
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/bin/Debug/netcoreapp3.1/Task1_1.dll
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/bin/Debug/netcoreapp3.1/Task1_1.pdb
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/obj/Debug/netcoreapp3.1/Task1_1.csprojAssemblyReference.cache
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/obj/Debug/netcoreapp3.1/Task1_1.AssemblyInfoInputs.cache
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/obj/Debug/netcoreapp3.1/Task1_1.AssemblyInfo.cs
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/obj/Debug/netcoreapp3.1/Task1_1.csproj.CoreCompileInputs.cache
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/obj/Debug/netcoreapp3.1/Task1_1.dll
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/obj/Debug/netcoreapp3.1/Task1_1.pdb
+/Users/admin/Projects/PariMatchTechAcademy/HomeWork1/Task1_1/obj/Debug/netcoreapp3.1/Task1_1.genruntimeconfig.cache
