@@ -1,0 +1,1 @@
+CREATE DATABASE panasenko_notes
