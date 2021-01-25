@@ -2,7 +2,7 @@
 using NotesApp.Tools;
 using Xunit;
 
-namespace NotesApp.Tests
+namespace NotesApp.Tests.Tools
 {
     public class ShortGuidTests
     {

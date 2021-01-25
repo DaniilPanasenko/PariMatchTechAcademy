@@ -1,19 +1,19 @@
 ﻿<Properties StartupConfiguration="{A373EC31-43D8-4049-A6AD-115B2E4DDEC2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NotesApp.Tests/StringGeneratorTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NotesApp.Tests/Services/NotesServiceTests.cs">
     <Files>
       <File FileName="NotesApp.Services/Services/NotesService.cs" Line="23" Column="1" />
-      <File FileName="NotesApp.Tests/NotesServiceTests.cs" />
       <File FileName="NotesApp.Services/Abstractions/INoteEvents.cs" />
       <File FileName="NotesApp.Services/Abstractions/INotesStorage.cs" />
       <File FileName="NotesApp.Services/Abstractions/INotesService.cs" />
       <File FileName="NotesApp.Services/Models/Note.cs" />
       <File FileName="NotesApp.Services/mono_crash.11a6748113.0.json" />
-      <File FileName="NotesApp.Tests/NumberGeneratorTests.cs" />
       <File FileName="NotesApp.Tools/NumberGenerator.cs" />
-      <File FileName="NotesApp.Tests/StringGeneratorTests.cs" Line="19" Column="94" />
       <File FileName="NotesApp.Tools/StringGenerator.cs" />
       <File FileName="NotesApp.Tools/ShortGuid.cs" />
-      <File FileName="NotesApp.Tests/ShortGuidTests.cs" />
+      <File FileName="NotesApp.Tests/Services/NotesServiceTests.cs" Line="60" Column="1" />
+      <File FileName="NotesApp.Tests/Tools/NumberGeneratorTests.cs" />
+      <File FileName="NotesApp.Tests/Tools/ShortGuidTests.cs" />
+      <File FileName="NotesApp.Tests/Tools/StringGeneratorTests.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +26,10 @@
             </Node>
             <Node name="NotesApp.Tests" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="StringGeneratorTests.cs" selected="True" />
+              <Node name="Services" expanded="True">
+                <Node name="NotesServiceTests.cs" selected="True" />
+              </Node>
+              <Node name="Tools" expanded="True" />
             </Node>
             <Node name="NotesApp.Tools" expanded="True" />
           </Node>
@@ -34,7 +37,9 @@
       </Pad>
       <Pad Id="ClassPad">
         <State name="__root__">
-          <Node name="NotesApp" expanded="True" selected="True" />
+          <Node name="NotesApp" expanded="True">
+            <Node name="NotesApp.Tests" selected="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">

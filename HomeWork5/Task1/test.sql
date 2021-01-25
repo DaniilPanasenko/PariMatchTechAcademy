@@ -12,20 +12,20 @@ SELECT insert_note('5504c25e-5e67-11eb-ae93-0242ac130002', 'pm', 'parimatch', 2)
 SELECT insert_note('5d6f82b2-5e67-11eb-ae93-0242ac130002', 'parimatch', 'parimatch', 3);
 SELECT insert_note('64f3eca8-5e67-11eb-ae93-0242ac130002', 'password', 'qwerty2020', 2);
 
-SELECT select_note('5504c25e-5e67-11eb-ae93-0242ac130002');
+SELECT * FROM select_note('5504c25e-5e67-11eb-ae93-0242ac130002');
 
-SELECT select_note('64f3eca8-5e67-11eb-ae93-0242ac130002');
+SELECT * FROM select_note('64f3eca8-5e67-11eb-ae93-0242ac130002');
 
-SELECT select_user_notes(1);
+SELECT * FROM select_user_notes(1);
 
-SELECT select_users_notes_count();
+SELECT * FROM select_users_notes_count();
 
 SELECT update_note_mark_deleted('d40db3d6-5e66-11eb-ae93-0242ac130002');
 
-SELECT select_note('d40db3d6-5e66-11eb-ae93-0242ac130002');
+SELECT * FROM select_note('d40db3d6-5e66-11eb-ae93-0242ac130002');
 
-SELECT select_user_notes(1);
+SELECT * FROM select_user_notes(1);
 
 SELECT update_note_mark_deleted('d9bdb4a2-5e66-11eb-ae93-0242ac130002');
 
-SELECT select_users_notes_count();
+SELECT * FROM select_users_notes_count();
