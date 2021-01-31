@@ -1,0 +1,16 @@
+﻿[
+    {
+        "primesFrom": -1,
+        "primesTo": 10000
+    },
+    {
+        "primesFrom": 100,
+        "primesTo": 50000
+    },
+    null,
+    {
+        "primesFrom": 100000,
+        "primesTo": 10000000
+    },
+    null
+]
