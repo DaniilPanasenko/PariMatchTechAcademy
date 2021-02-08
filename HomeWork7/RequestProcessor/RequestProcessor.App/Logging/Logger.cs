@@ -17,7 +17,8 @@ namespace RequestProcessor.App.Logging
         {
             if (!String.IsNullOrEmpty(message))
             {
-                Debug.WriteLine($"Exception. {nameof(exception)} {message}");
+                Debug.WriteLine(message);
+                Debug.WriteLine($"Exception: {exception}");
             }
         }
     }

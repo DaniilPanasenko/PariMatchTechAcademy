@@ -1,32 +1,49 @@
 ﻿using System;
+using System.Text.Json.Serialization;
+
 namespace RequestProcessor.App.Models
 {
     internal class RequestOptions : IRequestOptions, IResponseOptions
     {
-        private IRequestOptions _requestOptions;
+        [JsonPropertyName("path")]
+        public string Path { get; set; }
 
-        private IResponseOptions _responseOptions;
+        [JsonPropertyName("name")]
+        public string Name { get; set; }
 
-        public string Path => _responseOptions.Path;
+        [JsonPropertyName("address")]
+        public string Address { get; set; }
 
-        public bool IsValid => _requestOptions.IsValid && _responseOptions.IsValid;
+        [JsonPropertyName("contentType")]
+        public string ContentType { get; set; }
 
-        public string Name => _requestOptions.Name;
+        [JsonPropertyName("body")]
+        public string Body { get; set; }
 
-        public string Address => _requestOptions.Address;
+        [JsonPropertyName("method")]
+        public string MethodString { get; set; }
 
-        public string ContentType => _requestOptions.ContentType;
-
-        public string Body => _requestOptions.Body;
-
-        public RequestMethod Method => _requestOptions.Method;
-
-        internal RequestOptions(IRequestOptions requestOptions, IResponseOptions responseOptions)
+        public RequestMethod Method
         {
-            _requestOptions = requestOptions;
-            _responseOptions = responseOptions;
+            get
+            {
+                return Enum.TryParse(MethodString, true, out RequestMethod method)
+                ?
+                method
+                :
+                RequestMethod.Undefined;
+            }
         }
 
-        
+        public bool IsValid
+        {
+            get
+            {
+                return !string.IsNullOrEmpty(Path) &&
+                    !string.IsNullOrEmpty(Address) &&
+                    !(!string.IsNullOrEmpty(Body) && string.IsNullOrEmpty(ContentType)) &&
+                    Method != RequestMethod.Undefined;
+            }
+        }  
     }
 }

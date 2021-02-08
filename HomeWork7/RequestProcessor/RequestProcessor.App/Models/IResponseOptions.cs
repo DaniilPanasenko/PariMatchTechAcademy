@@ -10,7 +10,6 @@ namespace RequestProcessor.App.Models
         /// <summary>
         /// Path to save response data.
         /// </summary>
-        [JsonPropertyName("path")]
         string Path { get; }
 
         /// <summary>

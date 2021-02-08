@@ -43,33 +43,27 @@ namespace RequestProcessor.App.Services
             {
                 try
                 {
-                    RequestOptions options = new RequestOptions(requestOptions, responseOptions);
-                    if (options.IsValid)
+                    IResponse response;
+                    try
                     {
-                        IResponse response;
-                        try
-                        {
-                            response = await _requestHandler.HandleRequestAsync(requestOptions);
-                            _logger.Log("successful request");
-                        }
-                        catch (TimeoutException ex)
-                        {
-                            response = new Response(400, "")
-                            {
-                                Handled = false
-                            };
-                            _logger.Log(ex, "timeout exception in request");
-                        }
-                        await _responseHandler.HandleResponseAsync(response, requestOptions, responseOptions);
-                        _logger.Log("successful response writed");
-                        return true;
+                        response = await _requestHandler.HandleRequestAsync(requestOptions);
+                        _logger.Log($"RequestPerformer.PerformRequestAsync(): {requestOptions.Name ?? "Undefined"} request was performed successfully");
                     }
-                    _logger.Log("unvalid request options");
-                    return false;
+                    catch (TaskCanceledException)
+                    { 
+                        response = new Response(408, "Timeout")
+                        {
+                            Handled = false
+                        };
+                        _logger.Log($"RequestPerformer.PerformRequestAsync(): {requestOptions.Name ?? "Undefined"} request has exceeded the time limit");
+                    }
+                    await _responseHandler.HandleResponseAsync(response, requestOptions, responseOptions);
+                    _logger.Log($"RequestPerformer.PerformRequestAsync(): {requestOptions.Name ?? "Undefined"} request was written to the file {responseOptions.Path} successfully");
+                    return true;
                 }
                 catch (Exception ex)
                 {
-                    _logger.Log(ex, "unhandled exception");
+                    _logger.Log(ex, "RequestPerformer.PerformRequestAsync(): Unhandled exception");
                     throw new PerformException(ex.Message, ex);
                 }
             }
